@@ -5,8 +5,11 @@ int main(){
   
   do{
     std::cout<<"Humano ingresa el número de Filas de tu Matriz: ";std::cin>>f;
+  } while(f<1 || f>10);
+  
+  do{
     std::cout<<"Humano ingresa el número de Columnas de tu Matriz: ";std::cin>>c;    
-  } while((f<=1 || f>=10)||(c<=1 || >=10));
+  } while(c<1 || c>10);
   
   int array [f][c];
   
