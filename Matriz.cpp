@@ -4,11 +4,13 @@ int main(){
   int f, c;
   
   do{
-    std::cout<<"Humano ingresa el número de Filas de tu Matriz: ";std::cin>>f;
+    std::cout<<"Humano ingresa el número de Filas de tu Matriz: ";
+    std::cin>>f;
   } while(f<1 || f>10);
   
   do{
-    std::cout<<"Humano ingresa el número de Columnas de tu Matriz: ";std::cin>>c;    
+    std::cout<<"Humano ingresa el número de Columnas de tu Matriz: ";
+    std::cin>>c;    
   } while(c<1 || c>10);
   
   int array [f][c];
